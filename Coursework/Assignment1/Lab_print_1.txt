@@ -1,0 +1,73 @@
+No.     Time                          Source                Destination           Protocol Length Info
+    124 2015-05-06 00:18:24.596698000 10.32.89.137          128.119.245.12        HTTP     524    GET /wireshark-labs/INTRO-wireshark-file1.html HTTP/1.1 
+
+Frame 124: 524 bytes on wire (4192 bits), 524 bytes captured (4192 bits) on interface 0
+    Interface id: 0 (\Device\NPF_{A68CEA27-5F02-46C2-9106-5FBC1CDDB2EB})
+    Encapsulation type: Ethernet (1)
+    Arrival Time: May  6, 2015 00:18:24.596698000 Pacific Daylight Time
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1430896704.596698000 seconds
+    [Time delta from previous captured frame: 0.273549000 seconds]
+    [Time delta from previous displayed frame: 1.066990000 seconds]
+    [Time since reference or first frame: 9.508020000 seconds]
+    Frame Number: 124
+    Frame Length: 524 bytes (4192 bits)
+    Capture Length: 524 bytes (4192 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:tcp:http]
+    [Number of per-protocol-data: 1]
+    [Hypertext Transfer Protocol, key 0]
+    [Coloring Rule Name: HTTP]
+    [Coloring Rule String: http || tcp.port == 80 || http2]
+Ethernet II, Src: HonHaiPr_62:0a:cb (ac:d1:b8:62:0a:cb), Dst: AsustekC_92:e5:90 (e0:3f:49:92:e5:90)
+    Destination: AsustekC_92:e5:90 (e0:3f:49:92:e5:90)
+        Address: AsustekC_92:e5:90 (e0:3f:49:92:e5:90)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: HonHaiPr_62:0a:cb (ac:d1:b8:62:0a:cb)
+        Address: HonHaiPr_62:0a:cb (ac:d1:b8:62:0a:cb)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IP (0x0800)
+Internet Protocol Version 4, Src: 10.32.89.137 (10.32.89.137), Dst: 128.119.245.12 (128.119.245.12)
+    Version: 4
+    Header Length: 20 bytes
+    Differentiated Services Field: 0xb8 (DSCP 0x2e: Expedited Forwarding; ECN: 0x00: Not-ECT (Not ECN-Capable Transport))
+        1011 10.. = Differentiated Services Codepoint: Expedited Forwarding (0x2e)
+        .... ..00 = Explicit Congestion Notification: Not-ECT (Not ECN-Capable Transport) (0x00)
+    Total Length: 510
+    Identification: 0x494f (18767)
+    Flags: 0x02 (Don't Fragment)
+        0... .... = Reserved bit: Not set
+        .1.. .... = Don't fragment: Set
+        ..0. .... = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 128
+    Protocol: TCP (6)
+    Header checksum: 0xd5c5 [validation disabled]
+        [Good: False]
+        [Bad: False]
+    Source: 10.32.89.137 (10.32.89.137)
+    Destination: 128.119.245.12 (128.119.245.12)
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
+Transmission Control Protocol, Src Port: 19499 (19499), Dst Port: 80 (80), Seq: 1, Ack: 1, Len: 470
+Hypertext Transfer Protocol
+    GET /wireshark-labs/INTRO-wireshark-file1.html HTTP/1.1\r\n
+        [Expert Info (Chat/Sequence): GET /wireshark-labs/INTRO-wireshark-file1.html HTTP/1.1\r\n]
+        Request Method: GET
+        Request URI: /wireshark-labs/INTRO-wireshark-file1.html
+        Request Version: HTTP/1.1
+    Host: gaia.cs.umass.edu\r\n
+    Connection: keep-alive\r\n
+    Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8\r\n
+    User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.90 Safari/537.36\r\n
+    Accept-Encoding: gzip, deflate, sdch\r\n
+    Accept-Language: en-US,en;q=0.8\r\n
+    If-None-Match: "51-515637de88bb4"\r\n
+    If-Modified-Since: Wed, 06 May 2015 05:59:01 GMT\r\n
+    \r\n
+    [Full request URI: http://gaia.cs.umass.edu/wireshark-labs/INTRO-wireshark-file1.html]
+    [HTTP request 1/1]
+    [Response in frame: 126]
